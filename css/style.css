@@ -55,10 +55,7 @@ main > section {
   color: #131313;
 }
 
-/* main style */
-/* header{
-    height: 100vh;
-} */
+
 .navbar {
   padding: 63px 20px;
   justify-content: space-between;
@@ -246,6 +243,34 @@ main > section {
   font-size: 1.5rem;
 }
 
+/* sponspors stye */
+.sponspors-content {
+  text-align: center;
+  max-width: 542px;
+  margin: auto;
+}
+.sponspors-content p {
+  margin-top: 24px;
+}
+
+.sponspors-logo {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 9.5rem;
+  margin-top: 3rem;
+}
+.sponspors-logo img {
+  filter: grayscale(100%);
+}
+
+
+/* footer */
+.footer{
+  padding: 40px 0px;
+  text-align: center;
+  margin-top: 130px;
+}
+
 /* tablet device */
 @media screen and (max-width: 968px) {
   .team {
@@ -271,6 +296,22 @@ main > section {
   .some-facts-card-container {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 0px;
+  }
+  .sponspors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sponspors-logo {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 40px;
+    row-gap: 40px;
+  }
+
+  .sponspors-logo .figma{
+    grid-column: span 2 ;
   }
 }
 
