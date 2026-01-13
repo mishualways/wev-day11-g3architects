@@ -55,7 +55,6 @@ main > section {
   color: #131313;
 }
 
-
 .navbar {
   padding: 63px 20px;
   justify-content: space-between;
@@ -259,13 +258,13 @@ main > section {
   gap: 9.5rem;
   margin-top: 3rem;
 }
+
 .sponspors-logo img {
   filter: grayscale(100%);
 }
 
-
 /* footer */
-.footer{
+.footer {
   padding: 40px 0px;
   text-align: center;
   margin-top: 130px;
@@ -309,9 +308,9 @@ main > section {
     column-gap: 40px;
     row-gap: 40px;
   }
-
-  .sponspors-logo .figma{
-    grid-column: span 2 ;
+  .figma {
+    grid-column: 1 / span 2;
+    margin: auto;
   }
 }
 
